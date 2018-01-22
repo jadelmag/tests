@@ -1,4 +1,4 @@
-import { User } from "./skiptest";
+import { User } from './skiptest';
 
 
 // Using x before describe we can skip all test included inside

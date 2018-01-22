@@ -1,4 +1,4 @@
-import { increase } from "./number";
+import { increase } from './number';
 
 
 

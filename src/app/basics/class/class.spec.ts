@@ -1,4 +1,4 @@
-import { Player } from "./class";
+import { Player } from './class';
 
 
 describe('Class tests', () => {
