@@ -1,6 +1,9 @@
 
 import { TestBed, ComponentFixture } from '@angular/core/testing';
 import { DoctorComponent } from './doctor.component';
+import { DoctorService } from './doctor.service';
+
+import { HttpClientModule } from '@angular/common/http';
 
 
 describe('DoctorComponent Middle 2', () => {
@@ -10,7 +13,9 @@ describe('DoctorComponent Middle 2', () => {
 
     beforeEach( () => {
         TestBed.configureTestingModule({
-            declarations: [ DoctorComponent ]
+            declarations: [ DoctorComponent ],
+            providers: [ DoctorService ],
+            imports: [ HttpClientModule ]
         });
 
         fixture = TestBed.createComponent( DoctorComponent );
